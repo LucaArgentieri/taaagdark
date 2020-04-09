@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- viewport controllo zoom bloccato -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- X-UA per conpatibilità di alcuni aspetti di Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- autore del sito -->
+    <meta name="author" content="Sara e Desirè">
+
+    <!-- meta description -->
+    <meta name="description" content="Blog ">
+
+    <!-- meta keywords -->
+    <meta name="keywords" content="milano, murales, arte, ">
+
+    <!-- favicon -->
+    <link rel="icon" href="favicon.png" type="">
+
+    <title>Blog Milano</title>
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- link a google font con font scelto -->
+    <link href="https://fonts.googleapis.com/css?family=Nova+Mono&display=swap" rel="stylesheet">
+
+ <!-- link per carosello -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- inizio header che comprende immagine background, menu social fixed lato sinistro e menu hamburger lato destro -->
+    <header>
+        <div class="banner4"> 
+          <div class="cerchiop"><h1><img src="img/logo_n.svg" alt="logo"></h1></div></div>
+        <div class="social">
+          <a href="https://it.pinterest.com" target="_blank" class="red">Pinterest    <span class="fab fa-pinterest"></span></a>
+          <a href="https://instagram.com" target="_blank" class="pink">Instagram    <span class="fab fa-instagram"></span></a>
+          <a href="https://facebook.com" target="_blank" class="blue">Facebook    <span class="fab fa-facebook-f"></span></a>
+          <a href="https://twitter.com" target="_blank" class="light-blue">Twitter    <span class="fab fa-twitter"></span></a>
+        </div>
+        <div class="outer-menu">
+            <input class="checkbox-toggle" type="checkbox" />
+            <div class="hamburger">
+              <div></div>
+            </div>
+            
+            <div class="menu">
+              <div>
+                <div>
+                  <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="aboutus.html">NOI</a></li>
+                    <li><a href="mappa.html">MAPPA</a></li>
+                    <li><a href="contattaci.html">CONTATTI</a></li>
+                    <li><div class="search-box">
+                        <div class="wrap"></div>
+                            <div class="search">
+                               <input type="text" class="searchTerm" placeholder=" Cerca...">
+                               <button type="submit" class="searchButton">
+                                 <i class="fa fa-search"></i>
+                              </button>
+                            </div>
+                         </div>
+                      </div></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+    </header>
+    <main class="parallax">
+        <div class="cit">
+            <b>Leggi i nostri articoli</b>
+        </div>
+            <div class="wrapperarticoli">
+              <article>
+                <div class="pos1">
+                  <img src="img/a.jpg" alt="">
+                  <div class="pos2">
+                    <div class="arrow"></div>
+                    <br>
+                    <p>Santa Chiara Ferragni</p>
+                    <br>
+                    <p>Via Torino</p>
+                    <a class="none" href="chiaraferragni.html"><button class="altri1" type="button" >Scopri di più</button></a>
+                      <p>Tempo di lettura: 4 min</p>
+                  </div>
+      
+              </article>
+              <article class="vuota"></article>
+              <article>
+                <div class="pos1">
+                  <img src="img/c.jpg" alt="">
+                  <div class="pos2">
+                    <div class="arrow"></div>
+                    <br>
+                    <p>Il Piccolo Principe</p>
+                    <br>
+                    <p>Via Angelo della Pergola, 12</p>
+                    <a class="none" href="piccoloprincipe.html"><button class="altri1" type="button" >Scopri di più</button></a>
+                    <p>Tempo di lettura: 5 min</p>
+                  </div>
+                </div>
+              </article>
+              <article class="vuota"></article>
+              <article class="vuota"></article>
+              <article>
+                <div class="pos1">
+                  <img src="img/e.jpg" alt="">
+                  <div class="pos2">
+                    <div class="arrow"></div>
+                    <br>
+                    <p>Murales per l'ambiente</p>
+                    <br>
+                    <p>Via Viotti, 13</p>
+                    <a class="none" href="antismog.html"><button class="altri1" type="button" >Scopri di più</button></a>
+                    <p>Tempo di lettura: 8 min</p>
+                  </div>
+                </div>
+              </article>
+              <article class="vuota"></article>
+              <article>
+                <div class="pos1">
+                  <img src="img/f.jpg" alt="">
+                  <div class="pos2">
+                    <div class="arrow"></div>
+                    <br>
+                    <p>Porta Venezia per la LGBT</p>
+                    <br>
+                    <p>Metro Porta Venezia</p>
+                    <a class="none" href="portavenezia.html"><button class="altri1" type="button" >Scopri di più</button></a>
+                    <p>Tempo di lettura: 8 min</p>
+                  </div>
+                </div>
+              </article>
+    </main>
+    <footer>
+        <h3 class="titolo-main">Iscriviti alla newsletter!</h3>
+        <form action="#">
+            <label for="nwl"></label>
+            <input class="footer_text" type="text" id="nwl" name="nwl" placeholder="esempio@mail.com">
+            <input class="iscriviti" type="submit" value="Iscriviti">
+        </form>
+        </div>
+        <p class="margintop">Il sito è stato creato a scopo didattico dagli allievi del corso accademico Web & Digital Media del primo anno della Scuola Mohole.</p>
+            <ul class="caratterepiccolo">
+                <li><a href="#" target="_blank">FAQ</a></li>
+                <li>|</li>
+                <li><a href="#" target="_blank">Aiuto</a></li>
+                <li>|</li>
+                <li><a href="#" target="_blank">Contattaci</a></li>
+                <li>|</li>
+                <li><a href="#" target="_blank">Informativa sulla privacy</a></li>
+            </ul>
+            
+      </footer>
+  </body>
+  </html>

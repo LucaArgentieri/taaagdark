@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- viewport controllo zoom bloccato -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- X-UA per conpatibilità di alcuni aspetti di Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- autore del sito -->
+    <meta name="author" content="Sara e Desirè">
+
+    <!-- meta description -->
+    <meta name="description" content="Blog ">
+
+    <!-- meta keywords -->
+    <meta name="keywords" content="milano, murales, arte, ">
+
+    <!-- favicon -->
+    <link rel="icon" href="favicon.png" type="">
+
+    <title>Blog Milano</title>
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- link a google font con font scelto -->
+    <link href="https://fonts.googleapis.com/css2?family=Lacquer&display=swap" rel="stylesheet">
+
+
+ <!-- link per carosello -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ 
+ 
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- inizio header che comprende immagine background, menu social fixed lato sinistro e menu hamburger lato destro -->
+    <header>
+        <div class="banner"> 
+          <div class="cerchio"><h1><img src="img/logo_n.svg" alt="logo"></h1></div></div>
+        <div class="social">
+          <a href="https://it.pinterest.com" target="_blank" class="red">Pinterest    <span class="fab fa-pinterest"></span></a>
+          <a href="https://instagram.com" target="_blank" class="pink">Instagram    <span class="fab fa-instagram"></span></a>
+          <a href="https://facebook.com" target="_blank" class="blue">Facebook    <span class="fab fa-facebook-f"></span></a>
+          <a href="https://twitter.com" target="_blank" class="light-blue">Twitter    <span class="fab fa-twitter"></span></a>
+        </div>
+        <div class="outer-menu">
+            <input class="checkbox-toggle" type="checkbox" />
+            <div class="hamburger">
+              <div></div>
+            </div>
+            <div class="nomepagina">
+              <p class="verticale">HOME</p>
+            </div>
+            <div class="menu">
+              <div>
+                <div>
+                  <ul>
+                    <li><a class="active" href="index.html">HOME</a></li>
+                    <li><a href="aboutus.html">NOI</a></li>
+                    <li><a href="mappa.html">MAPPA</a></li>
+                    <li><a href="contattaci.html">CONTATTI</a></li>
+                    <li><div class="search-box">
+                        <div class="wrap"></div>
+                            <div class="search">
+                               <input type="text" class="searchTerm" placeholder=" Cerca...">
+                               <button type="submit" class="searchButton">
+                                 <i class="fa fa-search"></i>
+                              </button>
+                            </div>
+                         </div>
+                      </div></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+    </header>
+    <main>
+      
+      <div class="cit">
+        <b>Diffondiamo la bellezza dell'arte di strada a Milano</b>
+        <br>
+        <br>
+        <em class="cit2">‘You don’t need planning permission to build castles in the sky’ <br> BANKSY</em>
+      </div>
+      
+
+        <!-- inizio carosello -->
+        <div class="container">
+            <div id="myCarousel" class="carousel slide">
+              <!-- Indicatori -->
+              <ol class="carousel-indicators">
+                <li class="item1 active"></li>
+                <li class="item2"></li>
+                <li class="item3"></li>
+                <li class="item4"></li>
+              </ol>
+          
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="img/caroselloa.png" alt="art" >
+                  <div class="carousel-caption">
+                    <h3>Maxi murales di Ozmo, Zed1 e Rancy</h3>
+                    <p>Via Gallarate</p>
+                    <a class="none" href="error2.html"><button class="altri altriipad" type="button" >Scopri di più</button></a>
+                  </div>
+                </div>
+          
+                <div class="item">
+                  <img src="img/carosellob.png" alt="art" >
+                  <div class="carousel-caption">
+                    <h3>"Mutevole"</h3>
+                    <p>Via Simone Schiaffino, 21</p>
+                    <a class="none" href="error2.html"><button class="altri altriipad" type="button" >Scopri di più</button></a>
+                  </div>
+                </div>
+              
+                <div class="item">
+                  <img src="img/caroselloc.png" alt="art" >
+                  <div class="carousel-caption">
+                    <h3>Street artist all'opera</h3>
+                    <p>San Siro</p>
+                    <a class="none" href="error2.html"><button class="altri altriipad" type="button" >Scopri di più</button></a>
+                  </div>
+                </div>
+          
+                <div class="item">
+                  <img src="img/carosellod.png" alt="art" >
+                  <div class="carousel-caption">
+                    <h3>Maxi muro di Eron</h3>
+                    <p>Parco di City Life</p>
+                    <a class="none" href="error2.html"><button class="altri altriipad" type="button" >Scopri di più</button></a>
+                  </div>
+                </div>
+            
+              </div>
+          
+              <!-- Freccia destra e sinistra -->
+              <a class="left carousel-control" role="button">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+              </a>
+              <a class="right carousel-control" role="button">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+              </a>
+            </div>
+          </div>
+          
+          <script>
+          $(document).ready(function(){
+            // Activate Carousel
+            $("#myCarousel").carousel();
+              
+            // Enable Carousel Indicators
+            $(".item1").click(function(){
+              $("#myCarousel").carousel(0);
+            });
+            $(".item2").click(function(){
+              $("#myCarousel").carousel(1);
+            });
+            $(".item3").click(function(){
+              $("#myCarousel").carousel(2);
+            });
+            $(".item4").click(function(){
+              $("#myCarousel").carousel(3);
+            });
+              
+            // Enable Carousel Controls
+            $(".left").click(function(){
+              $("#myCarousel").carousel("prev");
+            });
+            $(".right").click(function(){
+              $("#myCarousel").carousel("next");
+            });
+          });
+          </script>
+      <div class="cit">
+        <b>Scopri tutti i nostri articoli</b>
+      </div>
+      <div class="cit1">
+      <div class="wrapper">
+        <article>
+          <div class="pos1">
+            <img src="img/a.jpg" alt="articolo">
+            <div class="pos2">
+              <div class="arrow"></div>
+              <br>
+              <p>Santa Chiara Ferragni</p>
+              <br>
+              <p>Via Torino</p>
+              <a class="none" href="chiaraferragni.html"><button class="altri1" type="button" >Scopri di più</button></a>
+                <p>Tempo di lettura: 4 min</p>
+            </div>
+
+        </article>
+        <article>
+          <div class="pos1">
+            <img src="img/b.jpg" alt="articolo">
+            <div class="pos2">
+              <div class="arrow"></div>
+              <br>
+              <p>Giuseppe Verdi alle Colonne</p>
+              <br>
+              <p>Basilica di San Lorenzo</p>
+              <button class="altri1" type="button" onclick="alert('L\'articolo in questione è un work in progress, prova a cliccarne un altro! ')">Scopri di più</button>
+              <p>Tempo di lettura: 8 min</p>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div class="pos1">
+            <img src="img/c.jpg" alt="articolo">
+            <div class="pos2">
+              <div class="arrow"></div>
+              <br>
+              <p>Il Piccolo Principe</p>
+              <br>
+              <p>Via Angelo della Pergola, 12</p>
+              <a class="none" href="piccoloprincipe.html"><button class="altri1" type="button" >Scopri di più</button></a>
+              <p>Tempo di lettura: 5 min</p>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div class="pos1">
+            <img src="img/d.jpg" alt="articolo">
+            <div class="pos2">
+              <div class="arrow"></div>
+              <br>
+              <p>Porta Romana si colora</p>
+              <br>
+              <p>Madama Hostel Bistrot</p>
+              <a class="none" href="error2.html"><button class="altri1" type="button" >Scopri di più</button></a>
+              <p>Tempo di lettura: 8 min</p>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div class="pos1">
+            <img src="img/e.jpg" alt="articolo">
+            <div class="pos2">
+              <div class="arrow"></div>
+              <br>
+              <p>Murales per l'ambiente</p>
+              <br>
+              <p>Via Viotti, 13</p>
+              <a class="none" href="antismog.html"><button class="altri1" type="button" >Scopri di più</button></a>
+              <p>Tempo di lettura: 8 min</p>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div class="pos1">
+            <img src="img/f.jpg" alt="articolo">
+            <div class="pos2">
+              <div class="arrow"></div>
+              <br>
+              <p>Porta Venezia per la LGBT</p>
+              <br>
+              <p>Metro Porta Venezia</p>
+              <a class="none" href="portavenezia.html"><button class="altri1" type="button" >Scopri di più</button></a>
+              <p>Tempo di lettura: 5 min</p>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div class="pos1">
+            <img src="img/g.jpg" alt="articolo">
+            <div class="pos2">
+              <div class="arrow"></div>
+              <br>
+              <p>L'equilibrio in Bicocca</p>
+              <br>
+              <p>Via Sesto San Giovanni</p>
+              <a class="none" href="error2.html"><button class="altri1" type="button" >Scopri di più</button></a>
+              <p>Tempo di lettura: 8 min</p>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div class="pos1">
+            <img src="img/h.jpg" alt="articolo">
+            <div class="pos2">
+              <div class="arrow"></div>
+              <br>
+              <p>In cerca d'amore per Milano</p>
+              <br>
+              <p>Via Emilio Morosini, 8</p>
+              <button class="altri1" type="button" onclick="alert('L\'articolo in questione è un work in progress, prova a cliccarne un altro! ')">Scopri di più</button>
+              <p>Tempo di lettura: 8 min</p>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div class="pos1">
+            <img src="img/i.jpg" alt="articolo">
+            <div class="pos2">
+              <div class="arrow"></div>
+              <br>
+              <p>Graffitando la creazione</p>
+              <br>
+              <p>Piazza Duomo</p>
+              <a class="none" href="error2.html"><button class="altri1" type="button" >Scopri di più</button></a>
+              <p>Tempo di lettura: 8 min</p>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div class="pos1">
+            <img src="img/l.jpg" alt="articolo">
+            <div class="pos2">
+              <div class="arrow"></div>
+              <br>
+              <p>Anche i muri parlano</p>
+              <br>
+              <p>Leoncavallo</p>
+              <a class="none" href="error2.html"><button class="altri1" type="button" >Scopri di più</button></a>
+              <p>Tempo di lettura: 8 min</p>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div class="pos1">
+            <img src="img/m.jpg" alt="articolo">
+            <div class="pos2">
+              <div class="arrow"></div>
+              <br>
+              <p>Diresti che è Piazza Affari?</p>
+              <br>
+              <p>Piazza Affari</p>
+              <button class="altri1" type="button" onclick="alert('L\'articolo in questione è un work in progress, prova a cliccarne un altro! ')">Scopri di più</button>
+              <p>Tempo di lettura: 8 min</p>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div class="pos1">
+            <img src="img/n.jpg" alt="articolo">
+            <div class="pos2">
+              <div class="arrow"></div>
+              <br>
+              <p>La resistenza femminile</p>
+              <br>
+              <p>Piazzale Donne Partigiane</p>
+              <button class="altri1" type="button" onclick="alert('L\'articolo in questione è un work in progress, prova a cliccarne un altro! ')">Scopri di più</button>
+              <p>Tempo di lettura: 8 min</p>
+            </div>
+          </div>
+        </article>
+      </div>
+      <br>
+      <a class="none1" href="error2.html"><button class="altri" type="button" >CARICA ALTRI</button></a>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">TORNA SU</button>
+      <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+      
+    </main>
+    <footer>
+      <h3 class="titolo-main">Iscriviti alla newsletter!</h3>
+      <form action="#">
+          <label for="nwl"></label>
+          <input class="footer_text" type="text" id="nwl" name="nwl" placeholder="esempio@mail.com">
+          <input class="iscriviti" type="submit" value="Iscriviti">
+      </form>
+      </div>
+      <p class="margintop">Il sito è stato creato a scopo didattico dagli allievi del corso accademico Web & Digital Media del primo anno della Scuola Mohole.</p>
+          <ul class="caratterepiccolo">
+              <li><a href="#" target="_blank">FAQ</a></li>
+              <li>|</li>
+              <li><a href="#" target="_blank">Aiuto</a></li>
+              <li>|</li>
+              <li><a href="#" target="_blank">Contattaci</a></li>
+              <li>|</li>
+              <li><a href="#" target="_blank">Informativa sulla privacy</a></li>
+          </ul>
+          
+    </footer>
+</body>
+</html>
