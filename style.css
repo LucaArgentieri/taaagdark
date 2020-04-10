@@ -254,8 +254,8 @@ a, a:visited, a:hover, a:active {
     justify-content: center;
 }
 .outer-menu .menu > div {
-    width: 200vw;
-    height: 200vw;
+    width: 300vh;
+    height: 300vh;
     color: #ffffff;
     background: #222831;
     border-radius: 50%;
@@ -1098,11 +1098,11 @@ html {
         font-size: 10px;
     }
     footer p.margintop{
-        font-size: 10px;
+        font-size: 12px;
     }
     .cit3{
         padding: 30px;
-        font-size: 14px;
+        font-size: 30px;
     }
     .black{
         padding: 0px;
@@ -1113,7 +1113,7 @@ html {
     }
     .scritta{
         text-align: center;
-        font-size: 14px;
+        font-size: 20px;
         padding: 25px;
         color: white;
     }
