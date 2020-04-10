@@ -748,7 +748,7 @@ footer{
     padding-top: 40px;
     padding-bottom: 30px;
     padding-left: 20px;
-    text-align: left;
+    text-align: center;
     font-size: 20px;
     color: white;
 }
@@ -771,6 +771,9 @@ footer{
     height: auto;
     padding-bottom: 60px;
     padding-top: 30px;
+}
+.immagine__graffiti {
+    width: 600px;
 }
 div.menusocial a span{
     color: #ffffff;
