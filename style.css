@@ -254,8 +254,8 @@ a, a:visited, a:hover, a:active {
     justify-content: center;
 }
 .outer-menu .menu > div {
-    width: 300vh;
-    height: 300vh;
+    width: 350vh;
+    height: 350vh;
     color: #ffffff;
     background: #222831;
     border-radius: 50%;
